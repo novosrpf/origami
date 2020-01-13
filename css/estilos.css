@@ -1,0 +1,290 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6d6370;
+  font-size: 12px;
+  margin: 45px;
+  background-color: #aeaeae;
+
+}
+
+#contenido-principal {
+  position: relative;
+  display: block;
+  width: 900px;
+  background-color: white;
+  margin: 0 auto;
+
+}
+
+header,
+footer,
+#contenido {
+
+  position: relative;
+  display: block;
+
+}
+
+#contenido {
+  overflow: auto;
+}
+
+header {
+  background-color: #ccc;
+}
+
+footer {
+  height: 33px;
+  background-color: #00adee;
+
+}
+
+nav {
+  position: relative;
+  display: block;
+  background-color: #00adee;
+  height: 51px;
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+nav a:hover {
+  color: #404041;
+  background-color: #fff;
+
+}
+
+nav #logo {
+  margin: 0;
+  height: 51px;
+  background-color: #fff;
+  width: 196px;
+  vertical-align: top;
+  background-image: url(../imagenes/logo.png);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: 500px;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+#imagen-encabezado {
+
+  position: relative;
+  display: block;
+  height: 280px;
+  background-image: url(../imagenes/fondo-portada.jpg);
+
+}
+
+
+#imagen-encabezado>span {
+  position: absolute;
+  display: block;
+  background-color: rgba(64, 64, 65, 0.6);
+  color: #fff;
+  font-size: 42px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 120px;
+}
+
+#noticias {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  width: 225px;
+  background-color: #fff;
+  bottom: 0;
+
+}
+
+#noticias>div {
+  position: relative;
+  display: block;
+  height: 295px;
+  overflow: auto;
+
+}
+
+#noticias>a {
+  position: absolute;
+  display: block;
+  background-color: #00adee;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+
+#noticias>div>a {
+
+  position: relative;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #58595b;
+
+}
+
+#noticias>div>a>span {
+
+  position: relative;
+  display: block;
+  color: #00adee;
+  margin: 0 0 5px;
+  font-size: 18px;
+
+
+}
+
+
+#noticias>div>a>p {
+  margin: 0;
+}
+
+#noticias>div>a:hover {
+
+  background-color: #404041;
+
+
+}
+
+#noticias>div>a:hover p {
+
+  color: #fff;
+}
+
+
+.columna-introduccion {
+
+  position: relative;
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.columna-introduccion h1,
+.columna-introduccion h2 {
+
+  position: relative;
+  display: block;
+  margin: 0 0 5px;
+  font-weight: normal;
+
+}
+
+.columna-introduccion h1 {
+  font-size: 36px;
+}
+
+.columna-introduccion h2 {
+  font-size: 18px;
+}
+
+.columna-introduccion p {
+  margin: 0 0 25px;
+}
+
+.columna-introduccion * {
+  padding-left: 40px;
+}
+
+.bullet-azul {
+  background: url(../imagenes/bullet.jpg) no-repeat left center;
+}
+
+footer h4 {
+
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  background-color: #404041;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 8px 35px 10px;
+  margin: 0;
+}
+
+footer span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  padding-left: 60px;
+}
+
+footer span a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+footer span a:hover {
+  text-decoration: underline;
+
+}
+
+footer div {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  height: 33px;
+  background-color: #404041;
+  padding: 0 10px;
+}
+
+footer div a {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  text-indent: 100px;
+  overflow: hidden;
+  background-image: url(../imagenes/iconos-sociales.png);
+  background-repeat: no-repeat;
+}
+
+footer div #facebook {
+  background-position: 11px 5px;
+}
+
+footer div #facebook:hover {
+  background-position: 11px -28px;
+}
+
+footer div #youtube {
+  background-position: -40px 5px;
+}
+
+footer div #youtube:hover {
+  background-position: -40px -28px;
+}
+
+footer div #twitter {
+  background-position: -89px 5px;
+}
+
+footer div #twitter:hover {
+  background-position: -89px -28px;
+}
